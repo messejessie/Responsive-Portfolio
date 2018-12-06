@@ -170,7 +170,27 @@ padding-top:5px;
     left: 130px;
     z-index: 2;
 }
-@media screen and (max-width: 768px) {
-    body {
-        style:"background-image:url(full-bloom.png)";}
+@media screen and (min-width: 640px) and (max-width: 980px) {
+    .body,
+    .about,
+    .body,
+    .about-you,
+    .boxfive,
+    .boxfour,
+    .boxone,
+    .boxset,
+    .boxthree,
+    .boxtwo,
+    .contact,
+    .container,
+    .form-control,
+    .form-group,
+    .image,
+    .kittenfive,
+    .main,
+    .name,
+    .portfolio,
+    .port {
+            width: 50%;
+    }
 }
