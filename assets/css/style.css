@@ -173,24 +173,28 @@ padding-top:5px;
 @media screen and (min-width: 640px) and (max-width: 980px) {
     .body,
     .about,
-    .body,
     .about-you,
-    .boxfive,
-    .boxfour,
-    .boxone,
-    .boxset,
-    .boxthree,
-    .boxtwo,
     .contact,
     .container,
     .form-control,
     .form-group,
     .image,
-    .kittenfive,
     .main,
     .name,
     .portfolio,
     .port {
-            width: 50%;
+            width: 25%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 980px) {
+.boxfive,
+    .boxfour,
+    .boxone,
+    .boxset,
+    .boxthree,
+    .boxtwo,
+    .kittenfive, {
+        width:25%;
     }
 }
